@@ -1,6 +1,6 @@
 // Loops(Iterations)
 
-
+/*
 
 // 1. WAP print 1 to 10 numbers using a while loop.
 
@@ -68,15 +68,15 @@ for(i=15; i>=5; i--){
 
 
 
-// 5.WAP print 1 to 10 Even numbers using For loop.
+// 5.WAP print 1 to 10 odd numbers using For loop.
 
-//initialization  i=2
+//initialization  i=1
 //condition  (i<=10)
 //incre/decre  (i=i+2)
 
-var i=2
+var i=1
 
-for(i=2; i<=10; i=i+2){
+for(i=1; i<=10; i=i+2){
 
     console.log(i);
 
@@ -106,13 +106,13 @@ while (i<=10) {
 
 // 7.WAP print 1 to 10 Even numbers using For loop.
 
-//initialization  i=1
+//initialization  i=2
 //condition  (i<=10)
 //incre/decre  (i=i+2)
 
-var i=1
+var i=2
 
-for(i=1; i<=10; i=i+2){
+for(i=2; i<=10; i=i+2){
 
     console.log(i);
 
@@ -136,6 +136,48 @@ while(i<=40){
     i=i+4;
 
 }    
+
+
+
+// 9. WAP factors of 24 using For loop.
+
+
+var n=24
+
+for(i=1; i<=n; i++){
+
+    if(n%i==0){
+
+         console.log(i);
+
+    }
+}
+        
+
+
+
+
+// 10. WAP factors of 55 using While loop.
+
+
+var n=55
+var i=1
+
+while(i<=n){
+
+    if(n%i==0){
+
+        console.log(i);
+        
+    }
+
+    i++;
+}
+           */
+
+
+
+
 
 
 

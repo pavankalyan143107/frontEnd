@@ -1,4 +1,6 @@
 
+
+
 // 1. WAP given number is divisible by 7
 
 var num=55;
@@ -136,7 +138,83 @@ if(a<=b && a<=c){
 }else{
     console.log("c,is least");
 
-} 
+}    
+
+
+
+
+// 9. WAP print the given three numbers in ascending order.
+
+var a=7
+var b=2
+var c=1
+
+if(a<b && a<c){
+
+    if(b<c){
+
+        console.log(a +',' +b+ ',' +c);}
+
+       else{ console.log(a+',' +b+ ',' +c);
+    }
+}else if(b<a && b<c){
+      
+    if(c<a){
+ 
+        console.log(b +',' +c+ ',' +a);}
+      else{  console.log(b +',' +a+ ',' +c);
+    }
+}else if(c<a && c<b){
+
+    if(a<b){
+
+        console.log(c +',' +a+ ',' +b);}
+       else{ console.log(c +',' +b+ ',' +a);
+    }
+}              
+
+
+
+
+// 10. WAP print the given three numbers in descending order.
+
+var a=78
+var b=55
+var c=99
+
+if(a>b && a>c){
+
+    if(b>c){
+
+        console.log(a+ "," +b+ "," +c);
+        
+        }else{
+            console.log(a+ "," +b+ "," +c);
+    
+    }
+}else if(b>c && b>a){
+
+    if(c>a){
+
+        console.log(b+ "," +c+ "," +a);
+
+    }else{
+        console.log(b+ "," +a+ "," +c);
+    }
+
+}else if(c>a && c>b){
+
+    if(a>b){
+
+        console.log(c+ "," +a+ "," +b);
+
+    }else{
+
+        console.log(c+ "," +b+ "," +a);
+    }
+
+}
+
 
 
 
