@@ -1,4 +1,7 @@
-/*
+
+// Arrays can store group of values or elements as one entity.
+// it allows Duplicates.
+// it allows heterogeneous values.
 
 
 function wish(){
@@ -102,6 +105,6 @@ var a=wish(100,200);
 console.log(a);
 
 var b=wish(99,88);
-console.log(b);        */
+console.log(b);       
 
 
