@@ -64,8 +64,8 @@ function add(a, b) {           // Don't write anything after return.
 let r1 = add(10, 20)
 console.log(r1)
 
-let r2 = add(100, 200)
-console.log(r2)         
+let pavan = add(100, 200)
+console.log(pavan)         
 
 
 
@@ -83,10 +83,12 @@ function wish(good){
 
 }
 
-let r1=wish("function practice")
-console.log(r1);  
+let r2=wish("function practice")
+console.log(r2);  
 
+   
 
+/*
 
 function wish(a,b){
     return a+b+"hi"
@@ -106,5 +108,5 @@ console.log(a);
 
 var b=wish(99,88);
 console.log(b);       
-
+*/
 
