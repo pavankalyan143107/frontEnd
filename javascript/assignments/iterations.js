@@ -176,6 +176,28 @@ while(i<=n){
            */
 
 
+// WAP Fibonacci series.
+
+var a=1
+var b=2
+const number=20
+
+c=a+b
+
+while(c<=number){
+    console.log(c);
+    a=b
+    b=c
+    c=a+b
+
+}
+
+
+
+
+
+
+
 
 
 
