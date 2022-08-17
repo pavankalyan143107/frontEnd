@@ -1,6 +1,6 @@
 
 
-/*
+
 
 let arr=[10,20,30,40]               //array allowed duplicates and heterogenuous elements.
 console.log(arr);     
@@ -66,7 +66,7 @@ let arr=[10,true,undefined,"pavan",[],{},10,20]
 console.log(arr);
 console.log(arr.length);          //here length is a property.          
 
-           */
+           
 
 
 
