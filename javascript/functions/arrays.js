@@ -8,7 +8,7 @@ console.log(arr);
 
 
 
-  var arr=[10,20,30,40]
+  var arr1=[10,20,30,40]
 
 //indexing  0  1  2  3            Note : index value should be starts with 0
 
@@ -24,7 +24,7 @@ console.log(arr[10]);     // it is undefined.
 
 // How to update.
 
-let arr=["pavan","vamsi","sai","anand","subbu","seenu"]
+let arr2=["pavan","vamsi","sai","anand","subbu","seenu"]
 console.log(arr);
 
 console.log(arr[0]);
@@ -42,10 +42,11 @@ console.log(arr);
 
 var arr=[30,40,50,60]
 
-for(i=0; i<=3; i++){
+for(i=0; i<=arr.length-1; i++){
     console.log(arr[i]);
+    
 
-}       
+}     
 
 
 
@@ -53,7 +54,7 @@ for(i=0; i<=3; i++){
 var arr=[10,20,30,40,50,]
 var i=0;
 
-while(i<=4){
+while(i<=arr.length-1){
     console.log(arr[i]);
     i++;
 

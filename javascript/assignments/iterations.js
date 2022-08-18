@@ -176,7 +176,7 @@ while(i<=n){
            
 
 
-11. WAP factors of 62 using While loop.
+//11. WAP factors of 62 using While loop.
 
 var a=62;
 var i=1;
@@ -194,7 +194,7 @@ while(i<=a){
 
 
 
-12. WAP factors of 98 using for loop.
+//12. WAP factors of 98 using for loop.
 
 var n=98;
 var i=1;
@@ -236,10 +236,10 @@ while(c<=number){
 
 var n1=0;
 var n2=1;
-const number=17;
+const number1=17;
 var n3=n1+n2;
 
-while(n3<number){
+while(n3<number1){
 
     console.log(n3);
     
