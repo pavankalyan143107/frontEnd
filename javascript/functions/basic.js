@@ -88,7 +88,7 @@ console.log(r2);
 
    
 
-/*
+
 
 function wish(a,b){
     return a+b+"hi"
@@ -107,6 +107,14 @@ var a=wish(100,200);
 console.log(a);
 
 var b=wish(99,88);
-console.log(b);       
-*/
+console.log(b); 
+
+
+
+
+function cal_age(year){
+    return 2022-year;
+}
+ let age=    cal_age(1997)
+ console.log(age);
 
