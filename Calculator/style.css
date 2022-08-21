@@ -18,7 +18,7 @@
 
 .calculator{
     background-color:black;
-    padding: 10px;
+    padding: 20px;
     border-radius: 30px;
     box-shadow: inset 5px 5px 12px #ffffff,            /* inside of box  5px= horizontal, vertical  12px=blur with white color  */
                       5px 5px 12px rgba(0,0,0,.16);    /* outside of the box    */
@@ -30,7 +30,7 @@
 input{
     grid-column: span 4;
     height: 70px;
-    width: 260px;
+    width: 250px;
     background-color: #ecf0f3;
     box-shadow: inset -5px -5px 12px #ffffff,
                        5px 5px 12px rgba(0,0,0,.16);
